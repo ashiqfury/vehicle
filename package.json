@@ -1,7 +1,9 @@
 {
-	"name": "machan-project",
+	"name": "vehicle",
 	"version": "0.1.0",
+	"author": "ashiqfury",
 	"private": true,
+	"homepage": "http://ashiqfury.github.io/vehicle",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.1",
 		"@testing-library/react": "^12.1.2",
