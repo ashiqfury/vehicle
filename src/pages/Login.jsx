@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom'
+
 const Login = () => {
 	const handleSubmit = e => {
 		e.preventDefault()
-		window.location.replace('/home')
+		// window.location.replace('/home')
 	}
 
 	return (
@@ -16,9 +18,9 @@ const Login = () => {
 					Password
 				</label>
 				<input type="password" className="login__input" id="pwd" />
-				<button type="submit" className="login__button">
+				<Link to={`/home`} className="login__button">
 					Log In
-				</button>
+				</Link>
 			</form>
 		</div>
 	)

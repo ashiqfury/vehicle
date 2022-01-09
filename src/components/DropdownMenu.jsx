@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const DropdownMenu = ({ title, dropdownList }) => {
 	const dropdownRef = useRef(null)
@@ -32,9 +33,9 @@ const DropdownMenu = ({ title, dropdownList }) => {
 				<ul>
 					{dropdownList.map(list => (
 						<li key={list.name}>
-							<a className="link" href={`/${list.link}`}>
+							<Link className="link" to={`/${list.link}`}>
 								{list.name}
-							</a>
+							</Link>
 						</li>
 					))}
 				</ul>

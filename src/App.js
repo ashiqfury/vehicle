@@ -17,22 +17,22 @@ const App = () => {
 				<Route path="/" exact>
 					<Login />
 				</Route>
-				<Route path="/home" exact>
+				<Route path="/home">
 					<Home />
 				</Route>
-				<Route path="/vehicle-master" exact>
+				<Route path="/vehicle-master">
 					<VehicleMaster />
 				</Route>
-				<Route path="/vendor-master" exact>
+				<Route path="/vendor-master">
 					<VendorMaster />
 				</Route>
-				<Route path="/material-master" exact>
+				<Route path="/material-master">
 					<MaterialMaster />
 				</Route>
-				<Route path="/tyre-master" exact>
+				<Route path="/tyre-master">
 					<TyreMaster />
 				</Route>
-				<Route path="/tyre-retread-master" exact>
+				<Route path="/tyre-retread-master">
 					<TyreRetreadMaster />
 				</Route>
 			</Switch>
